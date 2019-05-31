@@ -1,0 +1,10 @@
+<entry name="kstauble-edlname">
+        <type>
+          <ip>
+            <recurring>
+              <hourly/>
+            </recurring>
+            <url>http://</url>
+          </ip>
+        </type>
+      </entry>
