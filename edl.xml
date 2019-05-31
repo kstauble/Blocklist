@@ -1,10 +1,10 @@
-<entry name="kstauble-edlname">
+<entry name="{{ edl_name  }}">
         <type>
           <ip>
             <recurring>
               <hourly/>
             </recurring>
-            <url>http://</url>
+            <url>{{ edl_url }}</url>
           </ip>
         </type>
       </entry>

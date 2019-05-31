@@ -1,4 +1,4 @@
- <entry name="kstauble-edlin">
+ <entry name="{{ edl_name }}-edlin">
         <to>
           <member>any</member>
         </to>
@@ -6,7 +6,7 @@
           <member>any</member>
         </from>
         <source>
-          <member>kstauble-edlname</member>
+          <member>{{ edl_name }}</member>
         </source>
         <destination>
           <member>any</member>
@@ -28,10 +28,10 @@
         </hip-profiles>
         <action>deny</action>
         <tag>
-          <member>Red Tag</member>
+          <member>{{ tag_name }}</member>
         </tag>
       </entry>
-      <entry name="kstauble_edlout">
+      <entry name="{{ edl_name }}-edlout">
         <to>
           <member>any</member>
         </to>
@@ -42,7 +42,7 @@
           <member>any</member>
         </source>
         <destination>
-          <member>kstauble-edlname</member>
+          <member>{{ edl_name }}</member>
         </destination>
         <source-user>
           <member>any</member>
@@ -61,6 +61,6 @@
         </hip-profiles>
         <action>deny</action>
         <tag>
-          <member>Red Tag</member>
+          <member>{{ tag_name }}</member>
         </tag>
       </entry>

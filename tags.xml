@@ -1,9 +1,4 @@
-<entry name="Red Tag">
-        <color>color1</color>
+<entry name="{{ tag_name }}">
+        <color>{{ tag_color }}</color>
       </entry>
-      <entry name="Green Tag">
-        <color>color2</color>
-      </entry>
-      <entry name="Blue Tag">
-        <color>color3</color>
-      </entry>
+      
